@@ -3,3 +3,19 @@
 
 # Ada Library Information
 *.ali
+
+dist/
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# IDEs
+.idea/
+jsconfig.json
+.vscode/
+
+# Typings file.
+typings/
+
+# Misc
+tmp/
