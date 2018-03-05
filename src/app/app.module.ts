@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import 'rxjs/add/operator/map';
+import { PhoneListAppComponent } from './components/phone-list-app/phone-list-app.component';
+import { PhoneAppComponent } from './components/phone-app/phone-app.component';
+
 
 
 import { AppComponent } from './app.component';
-import { PhoneAppComponent } from './components/phone-app/phone-app.component';
 import { routes } from './components/routes';
 import { PROVIDERS } from './services';
 import { COMPONENTS } from './components';
@@ -15,8 +17,8 @@ import { COMPONENTS } from './components';
 @NgModule({
   declarations: [
     AppComponent,
-    PhoneAppComponent,
-     COMPONENTS
+    PhoneListAppComponent,
+    PhoneAppComponent
   ],
   imports: [
     BrowserModule,
